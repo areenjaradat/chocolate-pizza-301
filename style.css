@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 1%;
+  border-bottom: 1px gray solid;
+}
+#headerLogo {
+  margin: 0%;
+}
+#headerLogo img {
+  width: 5%;
+  margin-top: 2%;
+  float: left;
+}
+#headerLogo h1 {
+  position: relative;
+  top: 25px;
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+}
+#headerLogo p {
+  position: relative;
+  text-transform: uppercase;
+  font-size: xx-small;
+}
+header div {
+  clear: both;
+  position: relative;
+  left: 80%;
+  width: 19%;
+  bottom: 25px;
+  overflow: hidden;
+}
+header div :nth-last-child(2) {
+  margin-left: 15px;
+}
+main {
+  margin: 1%;
+}
+main h1 {
+  font-family: "Pacifico", cursive;
+  font-family: "Ramabhadra", sans-serif;
+}
+
+main h3 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: small;
+  color: gray;
+  bottom: 35px;
+}
+#print-icon {
+  position: relative;
+  width: 10%;
+  left: 95%;
+}
+#print-icon img {
+  float: left;
+}
+#print-icon p {
+  color: gray;
+}
+#choco-pizza {
+  width: 100%;
+}
+.paraghraphs {
+  color: #8e7f7f;
+  font-family: "Noto Sans JP", sans-serif;
+}
+#form{
+    color:#8e7f7f;
+}
+#form img {
+  clear: both;
+  position: absolute;
+  width: 95%;
+}
+#form #form1 {
+  position: relative;
+  margin-left: 6%;
+  top: 30px;
+}
+#form #form1 label {
+  position: relative;
+  font-size: x-large;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#form #form2 {
+  position: relative;
+  bottom: 180px;
+  left: 40%;
+  width: 40%;
+  margin-left: 6px;
+}
+#form #form2 label {
+  position: relative;
+  font-size: x-large;
+  font-family: "Noto Sans JP", sans-serif;
+}
+#form2 :nth-child(5) {
+  text-decoration: line-through;
+}
+#form2 :nth-child(8) {
+    text-decoration: line-through;
+  }
+main figure {
+  border-top: 2px solid black;
+  padding-top: 1%;
+  clear: both;
+}
+main figure img {
+  float: left;
+}
+main figure p {
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  bottom: 10px;
+}
+main figure :nth-child(2) {
+  font-weight: bolder;
+  font-family: "Noto Sans JP", sans-serif;
+}
+main figure :nth-child(4) {
+  padding: 2%;
+  background-color: rgb(201, 67, 5);
+  width: 20%;
+  left: 80%;
+  text-align: center;
+  bottom: 70px;
+}
+footer {
+  width: 98%;
+  border-top: 1px grey solid;
+  text-align: center;
+  padding: 2%;
+  color: grey;
+  margin: 1%;
+}
+#lastImg {
+  position: relative;
+  top: 40px;
+  left: 600px;
+}
